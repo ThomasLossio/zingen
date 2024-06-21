@@ -82,8 +82,10 @@ a:hover {
     var(--brand-color-secondary) 0%,
     var(--brand-color-primary) 100%
   );
-  color: transparent;
 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ul[role="list"] {
